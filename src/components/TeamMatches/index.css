@@ -1,0 +1,45 @@
+/* Write your CSS here */
+.latest_matches {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  color: #ffffff;
+  width: 90%;
+}
+.teamBanner {
+  height: 230px;
+  width: 90%;
+}
+.latest {
+  color: #ffffff;
+  font-size: 11px;
+}
+.team-card {
+  padding: 5%;
+}
+.RCB {
+  background-color: #a4261d;
+}
+.MI {
+  background-color: #4f5db0;
+}
+.RR {
+  background-color: #da237b;
+}
+.CSK {
+  background-color: #f7db00;
+}
+.SH {
+  background-color: #f26d22;
+}
+.DC {
+  background-color: #13418b;
+}
+.KKR {
+  background-color: #5755a7;
+}
+.KXP {
+  background-color: #d91c1f;
+}

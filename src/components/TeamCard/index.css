@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.teamCard {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 20px;
+  width: 48%;
+  border-radius: 12px;
+  border-color: #ffffff;
+  border-width: 1px;
+  border-style: solid;
+  margin: 6px;
+  text-decoration: none;
+  font-family: 'Bree Serif';
+}
+.teamlogo {
+  height: 90px;
+}
+.teamName {
+  color: #ffffff;
+  font-size: 23px;
+}
+li {
+  list-style-type: none;
+}

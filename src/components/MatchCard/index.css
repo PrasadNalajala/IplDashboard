@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.matchCard {
+  background-color: #0f172a;
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 10px;
+}
+.won {
+  color: #18ed66;
+  font-size: 15px;
+}
+.lost {
+  color: #e31a1a;
+  font-size: 15px;
+}
+.opponentLogo1 {
+  height: 100px;
+}

@@ -1,0 +1,30 @@
+/* Write your CSS here */
+.latest_match_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #0f172a;
+  color: #ffffff;
+  font-family: 'Bree serif';
+  padding: 30px;
+  width: 90%;
+  border-radius: 7px;
+}
+.competingTeamLogo {
+  height: 150px;
+}
+.competingTeam {
+  font-size: 23px;
+}
+.date {
+  font-size: 18px;
+}
+.venue {
+  font-size: 10px;
+}
+.innings {
+  font-size: 15px;
+}
+.man {
+  font-size: 18px;
+}
