@@ -31,11 +31,7 @@ class Home extends Component {
   render() {
     const {teams, isLoading} = this.state
     // console.log(teams)
-    return isLoading ? (
-      <div testid="loader">
-        <Loader type="Oval" color="#ffffff" height={50} width={50} />
-      </div>
-    ) : (
+    return (
       <div className="home-bg">
         <div className="dashboard-heading">
           <img

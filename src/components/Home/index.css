@@ -1,7 +1,7 @@
 /* Write your CSS here */
 .home-bg {
   background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
-  height: 100vh;
+  min-height: 100vh;
 }
 .dashboard-heading {
   display: flex;
@@ -9,6 +9,7 @@
   justify-content: center;
   padding: 20px;
 }
+
 .logo {
   height: 50px;
 }

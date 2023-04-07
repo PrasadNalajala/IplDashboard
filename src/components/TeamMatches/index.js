@@ -86,22 +86,18 @@ class TeamMatches extends Component {
     // console.log(this.state)
     return (
       <>
-        {isLoading ? (
-          <div testid="loader">
-            <Loader type="Oval" color="#ffffff" height={50} width={50} />
+        (
+        <div className={`team-card ${teamId}`}>
+          <img src={teamBannerUrl} className="teamBanner" alt="team banner" />
+          <h1 className="latest">Latest Matches</h1>
+          <LatestMatch details={latestMatchDetails} />
+          <div className="latest_matches">
+            {recentMatches.map(each => (
+              <MatchCard recentMatch={each} />
+            ))}
           </div>
-        ) : (
-          <div className={`team-card ${teamId}`}>
-            <img src={teamBannerUrl} className="teamBanner" alt="team banner" />
-            <h1 className="latest">Latest Matches</h1>
-            <LatestMatch details={latestMatchDetails} />
-            <div className="latest_matches">
-              {recentMatches.map(each => (
-                <MatchCard recentMatch={each} />
-              ))}
-            </div>
-          </div>
-        )}
+        </div>
+        )
       </>
     )
   }

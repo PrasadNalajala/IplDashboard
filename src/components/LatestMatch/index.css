@@ -1,30 +1,58 @@
-/* Write your CSS here */
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .latest_match_container {
+    display: flex;
+    flex-direction: column;
+    margin: 3px;
+  }
+  .matchdetails_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-top-style: solid;
+    border-color: #475569;
+  }
+}
+.matchdetailsContainer {
+  padding: 30px;
+}
 .latest_match_container {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+
+  justify-content: space-around;
   background-color: #0f172a;
   color: #ffffff;
   font-family: 'Bree serif';
-  padding: 30px;
-  width: 90%;
+  /* padding: 30px; */
+  width: 100%;
   border-radius: 7px;
+}
+.logo_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
 }
 .competingTeamLogo {
   height: 150px;
+  padding-left: 10%;
 }
+
 .competingTeam {
   font-size: 23px;
 }
+
 .date {
   font-size: 18px;
 }
+
 .venue {
   font-size: 10px;
 }
+
 .innings {
   font-size: 15px;
 }
+
 .man {
   font-size: 18px;
 }

@@ -2,15 +2,24 @@
 .matchCard {
   background-color: #0f172a;
   width: 33%;
+  height: 350px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 20px;
+  text-align: center;
   border-radius: 10px;
   padding-top: 30px;
   padding-bottom: 30px;
   margin-bottom: 10px;
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .matchCard {
+    width: 48%;
+    margin: 1%;
+  }
 }
 .won {
   color: #18ed66;
@@ -22,4 +31,7 @@
 }
 .opponentLogo1 {
   height: 100px;
+}
+.result {
+  font-size: 15px;
 }

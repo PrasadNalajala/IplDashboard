@@ -15,7 +15,7 @@ const MatchCard = props => {
       />
       <p className="competingTeam">{competingTeam}</p>
       <li>
-        <p className="venue">{result}</p>
+        <p className="result">{result}</p>
         <p className={matchStatus === 'Won' ? 'won' : 'lost'}>{matchStatus}</p>
       </li>
     </div>

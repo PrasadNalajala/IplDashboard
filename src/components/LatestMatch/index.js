@@ -19,20 +19,23 @@ const LatestMatch = props => {
   // console.log(details)
   return (
     <div className="latest_match_container">
-      <div>
-        <h1 className="competingTeam">{competingTeam}</h1>
-        <p className="date">{date}</p>
-        <p className="venue">{venue}</p>
-        <p className="venue">{result}</p>
-        <p className="venue">{umpires}</p>
-      </div>
+      <div className="logo_container">
+        <div>
+          <h1 className="competingTeam">{competingTeam}</h1>
+          <p className="date">{date}</p>
+          <p className="venue">{venue}</p>
+          <p className="venue">{result}</p>
+          <p className="venue">{umpires}</p>
+        </div>
 
-      <img
-        src={competingTeamLogo}
-        className="competingTeamLogo"
-        alt={`latest match ${competingTeam}`}
-      />
-      <div>
+        <img
+          src={competingTeamLogo}
+          className="competingTeamLogo"
+          alt={`latest match ${competingTeam}`}
+        />
+      </div>
+      <div className="matchdetails_container"> </div>
+      <div className="matchdetailsContainer">
         <h1 className="innings">First Innings</h1>
         <p className="venue">{firstInnings}</p>
         <h1 className="innings">Second Innings</h1>
